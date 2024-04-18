@@ -1,0 +1,291 @@
+*{
+   font-family: 'Open Sans', sans-serif;
+   text-decoration: none;
+   align-items: center;
+   
+}
+:root{
+   --khaki:#cab392;
+   --black:#000000;
+   --light-white:#ffffff;
+   --white:#ffffff;
+   --blue:#191833;
+}
+
+
+section{
+   max-width: 1200px;
+   margin:0 auto;
+   
+}
+.header{
+   position:absolute;
+   top:0; left:0; right:0;
+   z-index: 1000;
+   background-color: #191833;
+   height: 89px;
+   width: 1515px;
+}
+@media screen and (min-width:200px)
+{
+    .all{
+        display:none;
+    }
+}
+@media screen and (min-width:980px)
+{
+    .all{
+        display:inline;
+    }
+}
+
+@media screen and (min-width:200px)
+{
+    .header{
+        display:none;
+    }
+}
+@media screen and (min-width:980px)
+{
+    .header{
+        display:inline;
+    }
+}
+ 
+
+
+
+@media screen and (min-width:200px)
+{
+    .span{
+        display:none;
+       
+       
+    }
+}
+@media screen and (min-width:980px)
+{
+    .span{
+        display:inline;
+        
+    }
+}
+
+@media screen and (min-width:200px)
+{
+    .pream{
+        display:none;
+    }
+}
+@media screen and (min-width:980px)
+{
+    .pream{
+        display:inline;
+    }
+}
+ 
+
+
+@media screen and (min-width:200px)
+{
+    .span{
+        display:none;
+    }
+}
+@media screen and (min-width:980px)
+{
+    .span{
+        display:inline;
+    }
+}
+
+@media screen and (min-width:200px)
+{
+    .rream{
+        display:none;
+    }
+}
+@media screen and (min-width:980px)
+{
+    .rream{
+        display:inline;
+    }
+}
+ 
+
+ 
+button {
+ margin-left: 20px;
+ margin-top: -55px;
+ display: flex;
+ height: 3em;
+ width: 100px;
+ align-items: center;
+ justify-content: center;
+ background-color: #eeeeee4b;
+ border-radius: 3px;
+ letter-spacing: 1px;
+ transition: all 0.2s linear;
+ cursor: pointer;
+ border: none;
+ background: #fff;
+}
+
+button > svg {
+ margin-right: 5px;
+ margin-left: 5px;
+ font-size: 20px;
+ transition: all 0.4s ease-in;
+}
+
+button:hover > svg {
+ font-size: 1.2em;
+ transform: translateX(-5px);
+}
+
+button:hover {
+ box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+ transform: translateY(-2px);
+}
+.header .flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.7rem;
+}
+.dream{
+   margin-left: 35%;
+   margin-top: -21px;
+   font-family: 'tahoma' sans-serif;
+   font-style: bold;
+   color: whitesmoke;
+}
+
+.header .flex .logo{
+   font-size: 2.5rem;
+   color:white;
+}
+
+.header .flex .navbar a{
+   margin-left: 430px;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   text-decoration: none;
+}
+
+ 
+#menu-btn{
+   cursor: pointer;
+   color:var(--white);
+   font-size: 2.5rem;
+   display: none;
+}
+ 
+.m4a4{
+   display: inline-block;
+}
+.ump{
+   margin-top: -50px;
+   margin-left: -10px;
+}
+.pream{
+   margin-top: 10px;
+   font-family:   sans-serif;
+   font-style: bold;
+   color: #191833;
+   text-align: center;
+   position:relative;
+   top:0; left:0; right:10px;
+   height: 74px;
+   margin-top: -7px;
+   width: 1515px;
+   margin-left: 454px;
+}
+ 
+.swiper-pagination-bullet{
+   background-color: var(--white);
+}
+ 
+.swiper-pagination-bullet-active{
+   background-color: var(--green);
+}
+
+.teachers .slide{
+   position: relative;
+   overflow: hidden;
+   margin-bottom: 12rem;
+   user-select: none;
+   margin-top: 20px;
+}
+
+.teachers .slide img{
+   height: 32rem;
+   width: 100%;
+   object-fit: cover;
+   border-radius: .5rem;
+}
+
+
+.teachers .slide h3{
+   margin-top: 1.5rem;
+   font-size: 1.5rem;
+   text-align: center;
+   color:black;
+     
+   padding: 6px; 
+   
+
+}
+
+.teachers .slide h5{
+   margin-top: 1.5rem;
+   font-size: 1.3rem;
+   text-align: center;
+   color:black;
+   margin-top: -25px;
+   
+   padding: 5px; 
+  
+    
+   
+}
+.teachers .slide .share{
+   position: absolute;
+   top:1rem; left:-10rem;
+}
+
+.teachers .slide:hover .share{
+   left: 2rem;
+}
+
+.teachers .slide .share a{
+   display: block;
+   margin-top: 1rem;
+   height: 3.5rem;
+   width: 3.5rem;
+   line-height: 3.5rem;
+   border-radius: .5rem;
+   background-color: var(--white);
+   color:var(--black);
+   text-align: center;
+   font-size: 2rem;
+   text-decoration: none;
+}
+
+.teachers .slide .share a:hover{
+   background-color: var(--khaki);
+   color:var(--black);
+}
+.rream{
+  
+   font-family:  serif;
+   font-style: bold;
+   color: #191833;
+   text-align: center;
+   position:relative;
+   top:-90px; left:0; right:10px;
+   height: 74px;
+   width: 1515px;
+   margin-left: 454px;
+}
